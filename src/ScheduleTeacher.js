@@ -43,7 +43,7 @@ const ScheduleTeacher = ({ match }) => {
             getSchedules(id),
             getTeacher(id)
         ])
-    }, []);
+    }, [id]);
 
     const signOut = () => {
         dispatch({ type: "UPDATE_USER", payload: null });

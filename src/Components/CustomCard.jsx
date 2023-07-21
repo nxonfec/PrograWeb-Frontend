@@ -41,7 +41,7 @@ export default function CustomCard({
                 <p>{date}</p>
                 <p>Curso: {course}</p>
 
-                <a className="custom-link" href={link} target="_blank">
+                <a className="custom-link" href={link} target="_blank" rel="noreferrer">
                     Enlace de Zoom
                 </a>
                 <br/>

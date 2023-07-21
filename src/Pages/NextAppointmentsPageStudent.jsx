@@ -19,7 +19,6 @@ const NextAppointmentsStudentPage = () => {
     }
 
     const [ universidades, setUniversidades ] = useState([]);
-    const [ carreras, setCarreras ] = useState([]);
     const [cursos, setCursos] = useState([]);
     const [profesores, setProfesores] = useState([]);
     const [citas, setCitas] = useState([]);
@@ -55,7 +54,6 @@ const NextAppointmentsStudentPage = () => {
         const apiResponse = await fetch(`${URL_API}/get_initial_config`);
         const response = await apiResponse.json();
         setUniversidades(response.universities ?? []);
-        setCarreras(response.careers ?? []);
         setCursos(response.courses ?? [])
     }
 

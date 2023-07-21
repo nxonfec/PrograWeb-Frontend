@@ -1,1 +1,1 @@
-export const URL_API = process.env.BACKEND_URL;
+export const URL_API = "https://prograweb-backend-production.up.railway.app";
