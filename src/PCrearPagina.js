@@ -8,13 +8,11 @@ import {URL_API} from "./constants";
 const PInicio = () => {
   const dispatch = useDispatch();
 
-  const [ universidad, setUniversidad ] = useState("");
   const [nuevaUniversidad, setNuevaUniversidad ] = useState("");
   const [ universidadA, setUniversidadA ] = useState("");
   const [ universidadP, setUniversidadP ] = useState("");
   const [ cursoP, setCursoP ] = useState("");
   const  [ nuevoCursoP, setNuevoCursoP ] = useState("");
-  const [ nuevaUniversidadA, setNuevaUniversidadA ] = useState("");
   const [ CarreraA, setCarreraA ] = useState("");
   const [ nuevaCarreraA, setNuevaCarreraA ] = useState("");
 
@@ -190,7 +188,6 @@ const PInicio = () => {
     const x = document.getElementById("Docente");
     const y = document.getElementById("Estudiante");
     const z = document.getElementById("efecto");
-    const b = document.getElementById("BarraDeFondo");
 
     x.style.left = "-400px";
     y.style.left = "50px";

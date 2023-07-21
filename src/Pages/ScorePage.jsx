@@ -32,7 +32,7 @@ export default function ScorePage() {
         <div>
             <div style={{height:'64px', width:'100%', padding: '8px 4px', backgroundColor: '#F3EDF7', display: "flex", flexDirection: "column", alignItems: "flex-end"}}>
                 <a href="./adrmiperfil" style={{marginRight: "10px"}}>
-                    <img src={IMF} style={{height: "40px", width: "40px"}}></img>
+                    <img alt={"a"} src={IMF} style={{height: "40px", width: "40px"}}></img>
                 </a>
             </div>
             <div style={{display: 'flex', height: 'calc(100vh - 64px)'}}>

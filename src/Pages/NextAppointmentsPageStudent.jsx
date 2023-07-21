@@ -4,18 +4,6 @@ import {useDispatch, useSelector} from "react-redux";
 import React, {useEffect, useState} from "react";
 import {URL_API} from "../constants";
 import * as querystring from "querystring";
-
-const Appointments = [
-  {
-    fullName: "Alfonso Carrión",
-    date: "18/06/2023 08:00 am",
-  },
-  {
-    fullName: "Alfonso Carrión",
-    date: "18/06/2023 08:00 am",
-  },
-];
-
 const NextAppointmentsStudentPage = () => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.user);
@@ -177,7 +165,7 @@ const NextAppointmentsStudentPage = () => {
         }}
       >
         <a href="./adrmiperfil" style={{ marginRight: "10px" }}>
-          <img src={IMF} style={{ height: "40px", width: "40px" }}></img>
+          <img alt="aaaa" src={IMF} style={{ height: "40px", width: "40px" }}></img>
         </a>
       </div>
       <div style={{ display: "flex", height: "calc(100vh - 64px)" }}>

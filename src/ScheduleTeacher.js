@@ -120,7 +120,7 @@ const ScheduleTeacher = ({ match }) => {
                 }}
             >
                 <a href="./adrmiperfil" style={{ marginRight: "10px" }}>
-                    <img src={IMF} style={{ height: "40px", width: "40px" }}></img>
+                    <img alt="aa" src={IMF} style={{ height: "40px", width: "40px" }}></img>
                 </a>
             </div>
             <div style={{ display: "flex", height: "calc(100vh - 64px)" }}>

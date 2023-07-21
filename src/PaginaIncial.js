@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import imagen1 from './usuario.png';
 import "./PInicio.css";
 import { Link } from 'react-router-dom';
