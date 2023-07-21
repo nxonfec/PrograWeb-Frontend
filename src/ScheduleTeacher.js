@@ -1,8 +1,6 @@
 import {useDispatch, useSelector} from "react-redux";
 import IMF from "./img/user.png";
-import AppointmentDescription from "./Components/AppointmentDescription";
 import React, {useEffect, useState} from "react";
-import CustomInput from "./Components/CustomInput";
 import ScheduleDescription from "./Components/ScheduleDescription";
 import {URL_API} from "./constants";
 import FormatHour from "./utils/formatHour";

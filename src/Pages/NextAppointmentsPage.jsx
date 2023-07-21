@@ -8,38 +8,6 @@ import FormatHour from "../utils/formatHour";
 import {DAYS} from "../utils/constants";
 import {URL_API} from "../constants";
 import querystring from "querystring";
-const Appointments = [
-  {
-    fullName: "Alfonso Carrión",
-    date: "18/06/2023 08:00 am",
-  },
-  {
-    fullName: "Alfonso Carrión",
-    date: "18/06/2023 08:00 am",
-  },
-];
-
-const SCHEDULES = [
-    {
-        day: 'lunes',
-        initHour: '08:00',
-        endHour: '10:00',
-        link: 'google.com'
-    },
-    {
-        day: 'Martes',
-        initHour: '04:00',
-        endHour: '06:00',
-        link: 'google.com'
-    },
-    {
-        day: 'Jueves',
-        initHour: '05:00',
-        endHour: '08:00',
-        link: 'google.com'
-    }
-]
-
 const NextAppointmentsPage = () => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.user);

@@ -45,7 +45,7 @@ export default function CustomCard({
                     Enlace de Zoom
                 </a>
                 <br/>
-                <p>{score == 0 ? "No Calificado" : `Calificación: ${score}`}</p>
+                <p>{score === 0 ? "No Calificado" : `Calificación: ${score}`}</p>
                 <button
                     style={{zIndex: 100}}
                     className="custom-btn btn-secondary p-absolute b-16 r-16"

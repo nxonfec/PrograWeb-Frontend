@@ -1,7 +1,5 @@
-import { useState } from "react";
 import "./Citas.css";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from 'react-redux';
 
 const handleLinkClick = () => {
     window.location.href = '/adrproximascitasProfesor';

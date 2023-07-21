@@ -1,10 +1,9 @@
 import '../App.css'
 import Select from 'react-select';
 import React, {useEffect, useState} from 'react';
-import {useDispatch, useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 import {URL_API} from "../constants";
 const NavTabInfo = (props) => {
-    const dispatch = useDispatch();
     const user = useSelector((state) => state.user);
     console.log(user);
 

@@ -1,7 +1,6 @@
 import './MiPerfil.css';
 import NavTabInfo from './Components/NavTabInfo.js';
 import IMF from "./img/user.png";
-import AppointmentDescription from "./Components/AppointmentDescription";
 import {useDispatch, useSelector} from "react-redux";
 
 const MiPerfil = () => {
@@ -32,7 +31,7 @@ const MiPerfil = () => {
                 }}
             >
                 <a href="./adrmiperfil" style={{ marginRight: "10px" }}>
-                    <img src={IMF} style={{ height: "40px", width: "40px" }}></img>
+                    <img alt="Desc" src={IMF} style={{ height: "40px", width: "40px" }}></img>
                 </a>
             </div>
             <div style={{ display: "flex", height: "calc(100vh - 64px)" }}>

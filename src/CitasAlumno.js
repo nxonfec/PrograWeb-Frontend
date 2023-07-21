@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./Citas.css";
 import { Link } from "react-router-dom";
 

@@ -1,5 +1,4 @@
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
   BrowserRouter
@@ -8,25 +7,18 @@ import PInicio from './PaginaIncial';
 import CrearPagina from './PCrearPagina';
 import MiPerfil from "./MiPerfil";
 import MiPerfilDocente from "./MiPerfilDocente";
-import Horario from "./HorarioDocente";
 import CAlumno from "./CitasAlumno";
 import CDocente from "./CitasDocente";
 import CPasadas from "./CitasPasadas";
 import CPasadasDocente from "./CitasPasadasDocente";
 import NoCitas from "./NoCitas";
-import ACitas from "./AtenciCitas";
-import PPDocente from "./PPDocente";
-import RatingForm from "./RatingForm";
-import PPAlumno from "./PPAlumno";
 
 import "./App.css";
-import AppAdr from "./AppAdr";
 import ScorePage from "./Pages/ScorePage";
 import MySchedulesPage from "./Pages/MySchedulesPage";
 import NextAppointmentsPage from "./Pages/NextAppointmentsPage";
 import NextAppointmentsStudentPage from "./Pages/NextAppointmentsPageStudent";
 import MyAppointmentsPage from "./Pages/MyAppointmentsPage";
-import MiPerfil2 from "./Pages/MiPerfil2";
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './redux/store';

@@ -52,11 +52,11 @@ export default function MySchedulesPage() {
             alert('El día está mal escrito o no es válido.')
             return;
         }
-        if(scheduleForm.initHour == ""){
+        if(scheduleForm.initHour === ""){
             alert('Digite una hora inicial')
             return;
         }
-        if(scheduleForm.endHour == ""){
+        if(scheduleForm.endHour === ""){
             alert('Digite una hora final')
             return;
         }
@@ -64,7 +64,7 @@ export default function MySchedulesPage() {
             alert('La hora inicial debe ser menor a la hora final')
             return;
         }
-        if(scheduleForm.link == ""){
+        if(scheduleForm.link === ""){
             alert('Escriba el link de la reunión')
             return;
         }
@@ -103,7 +103,7 @@ export default function MySchedulesPage() {
 <div>
             <div style={{height:'64px', width:'100%', padding: '8px 4px', backgroundColor: '#F3EDF7', display: "flex", flexDirection: "column", alignItems: "flex-end"}}>
                 <a href="./adrmiperfil" style={{marginRight: "10px"}}>
-                    <img src={IMF} style={{height: "40px", width: "40px"}}></img>
+                    <img alt="aaaaa" src={IMF} style={{height: "40px", width: "40px"}}></img>
                 </a>
             </div>
             <div style={{display: 'flex', height: 'calc(100vh - 64px)'}}>
