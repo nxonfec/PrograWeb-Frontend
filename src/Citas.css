@@ -1,0 +1,199 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4ecf4;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+aside {
+  background-color: #f2f2f2;
+  float: left;
+  width: 200px;
+  padding: 20px;
+  min-height: 100vh; /* Agregado: altura mÃ­nima de 100% de la altura de la ventana */
+  box-sizing: border-box; /* Agregado: incluir el padding y borde en el tamaÃ±o total */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 20%;
+  margin-left: 20%;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #6757a5;
+}
+
+main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  flex-grow: 1;
+  color: black;
+  text-align: center;
+  font-family: 'Calibri';
+}
+/*--------------------------------------------------------------------------------------------*/
+h2 {
+  color: #333;
+}
+
+.cita {
+  width: 25%;
+  height: 10.5cm;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 1%;
+  padding: 10px;
+  float: left;
+}
+
+.cita-info h3 {
+  margin: 0;
+}
+
+.cita-fecha {
+  font-size: 110%;
+}
+
+.cita-curso {
+  font-size: 90%;
+}
+
+.enlace-clase {
+  color: black;
+}
+
+.alumno-info h4,
+.docente-info h4 {
+  margin-top: 0;
+}
+
+.alumno-foto,
+.docente-foto {
+  display: block;
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enlace-clase {
+  display: block;
+  margin:auto;
+}
+
+.cancelar-cita {
+  color: #6757a5;
+  background-color: #f4ecf4;
+  border-radius: 2em;
+  border: 0.5;
+  border-color: #6757a5;
+  padding: 10px;
+  float: right;
+  cursor: pointer;
+  margin-top: 1cm;
+}
+
+.icon-header {
+  width: 20px;
+  margin-right: 10px;
+}
+
+#icon-user {
+  float: right;
+}
+
+.programar-cita{
+  color: white;
+  background-color: #6757a5;
+  border-radius: 2em;
+  border: 0;
+  padding: 10px;
+  float: right;
+  outline-offset: 3px;
+}
+
+.centrar {
+  color: white;
+  background-color: #6757a5;
+  border-radius: 2em;
+  border: 0;
+  padding: 10px;
+  outline-offset: 3px;
+  margin-left: 10cm;
+}
+
+.citas-pasadas {
+  color: #6757a5;
+  background-color: white;
+  border-radius: 2em;
+  border: 0.5;
+  border-color: #6757a5;
+  padding: 10px;
+  float: right;
+}
+
+.iniciales {
+  color: white;
+  background-color: #6757a5;
+  border-radius: 2em;
+  border: 0;
+  padding: 15px;
+  outline-offset: 3px;
+  float: left;
+}
+
+.paginas {
+  font-weight: bold;
+  float: right;
+  margin-top: 15cm;
+}
+
+
+.rating-container {
+  margin-top: 20px;
+}
+
+.rating-container p {
+  margin: 10px 0;
+}
+
+.rating-container .calificacion {
+  font-weight: bold;
+}
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+}
+
+.rating-stars .star {
+  cursor: pointer;
+  font-size: 25px;
+  color: #ccc;
+  transition: color 0.2s;
+}
+
+.rating-stars .star:hover,
+.rating-stars .star.selected {
+  color: #ffcc00;
+}

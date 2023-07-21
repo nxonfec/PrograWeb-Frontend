@@ -1,0 +1,85 @@
+.navbar {
+    background-color: rgb(251, 244, 255);
+  }
+  
+  .navbar .Titu{
+    display: flex;
+    justify-content: center;
+  }
+  .badge {
+    background-color: rgb(238, 227, 255);
+  }
+  
+  
+  .row .col-sm {
+    color: blueviolet;
+    border-color: blueviolet;
+  
+  }
+  
+  .row .col-sm .btn-light {
+    color: blueviolet;
+    border-color: blueviolet;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .text-center {
+    padding: 10px;
+  }
+  
+  
+  li{
+    list-style:none;
+    margin-top: 20px;
+  }
+  
+  .navbar img {
+    height: 30px;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .titulo {
+    display: flex;
+  }
+  
+  /* esto es de Pag principal alumno */
+  
+  
+  .comentario {
+    font-size: 30px;
+    padding: 2px;
+    
+  }
+  
+  /* Espacio entre cuadros */
+  .container .row {
+    padding: 10px;
+  }
+  
+
+  /*MEJORARLO-----------------------------------------------*/
+  /* .row > div{
+    padding: 20px;
+    border: 1px solid rgb(163, 163, 163);
+  } */
+  /* icono de libro */
+  .aB{
+    float: right;
+    
+  }
+  
+  .row .col-6 {
+    border-radius: 10px;
+  }
+  .po
+  {
+    padding-bottom: 80%;
+  }
+  

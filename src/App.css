@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* DISPLAY */
+.flex {
+  display: flex;
+}
+
+/* POSITION */
+.p-absolute{
+  position: absolute;
+}
+
+.p-relative{
+  position: relative;
+}
+
+/* TOP */
+.t-0{
+  top: 0;
+}
+
+/* LEFT  */
+.l-0{
+  left: 0;
+}
+
+/* BOTTOM */
+.b-16{
+  bottom: 16px;
+}
+
+/* RIGHT */
+.r-0{
+  right: 0px;
+}
+
+.r-16{
+  right: 16px;
+}
+
+/* ALIGN ITEMS */
+.items-center{
+  align-items: center;
+}
+
+/* JUSTIFY CONTENT */
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+/* WIDTH */
+.w-full{
+  width: 100%;
+}
+
+/* HEIGHT */
+.h-full{
+  height: 100%;
+}
+
+/* MARGIN TOP */
+.mt-4{
+  margin-top: 1rem;
+}
+
+/* BACKGROUND COLOR */
+.bg-white{
+  background-color: white;
+}
+
+
+
+/* COMPONENTS       ######################### */
+/* CUSTOM LINK */
+.custom-link{
+  text-decoration: none;
+  color: #6750A4;
+}
+
+/* CUSTOM BUTTON */
+.custom-btn {
+  border-radius: 28px;
+  color: #fff;
+  font-size: 14px;
+  background: #6750A4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.custom-btn:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #79747E;
+  color: #6750A4;
+}
+
+/* CUSTOM INPUT */
+.custom-floating-label-content {
+  position: relative;
+  margin-bottom: 20px;
+}
+.custom-floating-label {
+  color: #6750a4;
+  font-size: 13px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: -8px;
+  padding: 0 5px;
+  background: #fff;
+}
+.custom-floating-input {
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 0 20px;
+  background: #fff;
+  color: #323840;
+  border: 1px solid #6750a4;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Borde del input cuando haces focus */
+input:focus-visible {
+  outline-color: #6750a4;
+}
+
+/* CUSTOM CHIP */
+.custom-chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.custom-chip-primary{
+  background-color: #6750A4;
+  color: #FEF7FF
+}
+
+.custom-chip-secondary{
+  background-color: #eaddff;
+  color: #21005D;
+}

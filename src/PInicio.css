@@ -1,0 +1,244 @@
+/*El * para que afecte en toda la pagina*/
+*
+{
+    /*Con todo esto reseteamos todos los estilos de html por defecto*/
+    /*La propiedad margin es la capa más externa de un elemento web. En otras palabras, 
+    crea un espacio alrededor del elemento.
+    Crea espacio entre los elemntos */
+    margin: 0;
+    /*La propiedad abreviada de CSS padding 
+    establece el área de relleno en los cuatro lados de un elemento a la vez.
+    Crear espacio dentor de los elementos*/
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+    /*para el fondo en toda la pantalla*/
+body{
+    /* background-image: url(fondou.jpg); */
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagen
+{
+    /*arriba, derecha, abajo, izquierda*/
+    margin: 0 0px 0px 126px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    width: 80px;
+    height: 90px;
+}
+
+.BarraSeleccionado
+{
+    width: 100%;
+    height: auto;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.BarraInicial
+{
+    /*Para que los elemtnos se coloquen uno debajo del otro*/
+    display: flex;
+    flex-direction: column;
+    /*Para que cada elemento del div sea flexible y se centre*/
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#Mostrar
+{
+    /*arriba, derecha, abajo, izquierda*/
+    margin: 10px 0 0 0;
+}
+
+.Boton
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*Esto hace que todo este en mayusculas*/
+    text-transform: uppercase;
+    outline: 0;
+    background-color: brown;
+    width: 100%;
+    border: 0;
+    padding: 10px 30px;
+    /*arriba, derecha, abajo, izquierda*/
+    margin: 0px 0 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.CrearCuenta
+{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.BarraDeFondo
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    position: absolute;
+    background-color: gainsboro;
+    /*arriba, derecha, abajo, izquierda*/
+    padding: 40px 20px 30px 20px;
+    /*Para que el texto este centralizado en todo momento*/
+    text-align: left;
+    border-radius: 10px;
+    /*Añadir sombra a la caja*/
+    /*box-shadow: 0 0 20px 0 white, 0 5px 5px o white; mio*/
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0.2), 0 5px 5px o rgb(0, 0, 0.2);
+
+}
+
+
+/*PARTE DEL REGISTROOOO*/
+.BarraInicial2
+{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.BarraDeFondo2.otro .Registro {
+    margin-top: 100px; /* Ajusta el valor según sea necesario para dar más espacio vertical */
+  }
+  
+
+.BarraDeFondo2
+{
+    position: relative;
+    width: 370px;
+    height: 690px;
+    z-index: 1;
+    margin: 6% auto;
+    background-color: gainsboro;
+    /*arriba, derecha, abajo, izquierda*/
+    padding: 20px 5px 100px 5px; /*Ajusta el valor de padding-top según sea necesario*/
+    border-radius: 10px;
+    /*Para que no se muestre fuera del recuadro div*/
+    overflow: hidden;
+}
+
+.Registro.otro {
+    padding-top: -120px; /* Ajusta el valor según sea necesario para dar más espacio vertical */
+  }
+  
+.Registro.otro .Espaciado {
+    margin-top: -20px; /* Ajusta el valor según sea necesario para dar más espacio debajo del texto */
+  }
+  
+
+.BarraDeFondo3
+{
+    position: relative;
+    width: 370px;
+    height: 540px;
+    z-index: 1;
+    margin: 6% auto;
+    background-color: gainsboro;
+    /*arriba, derecha, abajo, izquierda*/
+    padding: 5px 5px 15px 5px;
+    border-radius: 10px;
+    /*Para que no se muestre fuera del recuadro div*/
+    overflow: hidden;
+}
+
+.BarraDeFondo3
+{
+    position: relative;
+    width: 370px;
+    height: 540px;
+    z-index: 1;
+    margin: 6% auto;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#Elegir
+{
+    width: 260px;
+    margin: 30px auto;
+    position: relative;
+    /*box-shadow: 0 0 20px 9px;*/
+    border-radius: 30px;
+}
+
+.presionar
+{
+    padding: 10px 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+}
+
+#efecto
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    /*background-color: aquamarine;*/
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right,rgb(255, 2, 2), rgb(197, 66, 0));
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+.Registro
+{
+    top: 80px;
+    position: absolute;
+    width: 270px;
+    transition: 0.8s;
+}
+
+.estilo
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 6px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid brown; /*lineas*/
+    outline: none;
+    background: transparent;
+    color: black;
+
+}
+
+#Docente
+{
+    left: 60px;
+}
+#Estudiante
+{
+    left: 450px;
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
